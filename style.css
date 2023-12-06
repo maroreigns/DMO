@@ -6,7 +6,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    color: #333;
+   
 }
 
 header {
@@ -14,6 +14,14 @@ header {
     color: #fff;
     padding: 1em;
     text-align: center;
+}
+
+h2 span{
+    color: black;
+}
+
+.logomain span{
+    color: black;
 }
 
 
@@ -46,10 +54,11 @@ header {
     margin: 20px;
     text-align: center;
     letter-spacing: 1px;
-    box-shadow: 0 3px 5px rgba(0,0,0,.3);
+    box-shadow: 0 3px 9px rgba(0,0,0,.3);
     overflow: hidden;
     position: relative;
     z-index: 0;
+    border: 4px double white;
 
 }
 
