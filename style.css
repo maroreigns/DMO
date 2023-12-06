@@ -112,9 +112,17 @@ footer {
 }
 
 .social-icon{
-    font-size: 30px;
+    font-size: 48px;
 }
 
-.social-icon i{
-    color: green;
+.insta i{
+    color: #ff4b72;
+}
+
+.whatsap i{
+    color: #24d366;
+}
+
+.faceb i{
+    color: #0966ff;
 }
