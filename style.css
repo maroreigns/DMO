@@ -16,12 +16,27 @@ header {
     text-align: center;
 }
 
-h2 span{
+header h2 span{
     color: black;
+    background: red;
+    border-radius: 12px;
+}
+
+span{
+    color: yellow;
+}
+
+.logomain {
+   padding-top: 23px;
 }
 
 .logomain span{
     color: black;
+    background: red;
+    border-radius: 12px;
+    font-size: 30px;
+
+  
 }
 
 
