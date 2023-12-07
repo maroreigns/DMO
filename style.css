@@ -145,21 +145,20 @@ footer {
 /* date setup */
 
 #date-container {
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
     margin-top: 150px;
-    background-color: #24d366;
+   background-color: greenyellow;
     color: #ff4b72;
+   
 }
 
 /* advertise here section */
 
 #advertise-container {
     text-align: center;
-    padding: 20px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-   
     bottom: 0;
     left: 0;
     width: 100%;
