@@ -16,3 +16,11 @@ function openAdForm() {
     // You can replace this with your own logic to open an advertising form or link
     alert("Redirect to your advertising form or link here!");
   }
+
+
+
+
+
+
+
+ 

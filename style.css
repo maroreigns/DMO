@@ -8,9 +8,46 @@ body{
     background-color: #f4f4f4;
    
 }
+/* advertise here section */
+#advertise-container {
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  #advertise-text {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  #advertise-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+
+  /* date setup */
+  #date-container {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 150px;
+    background-color: black;
+    color: #ff0000;
+    padding-top: 12px;
+   
+   
+}
+
 
 header {
-    background-color: green;
+    background-color: #42680a;
     color: #fff;
     padding: 1em;
     text-align: center;
@@ -43,7 +80,7 @@ span{
 
 .container2{
   text-align: center;
-  background-color: green;
+  background-color: #42680a;
   color: white;
 }
 
@@ -55,7 +92,7 @@ span{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: rgb(13, 221, 30);
+   background: #42680a;
    
 }
 
@@ -111,7 +148,7 @@ span{
 footer {
     text-align: center;
     padding: 1em;
-    background-color: green;
+    background-color: #42680a;
     color: #fff;
 }
 
@@ -142,39 +179,15 @@ footer {
     color: #0966ff;
 }
 
-/* date setup */
 
-#date-container {
-    font-size: 20px;
-    text-align: center;
-    margin-top: 150px;
-   background-color: greenyellow;
-    color: #ff4b72;
-   
+.teleg{
+   color: #31a8d9;
+
 }
 
-/* advertise here section */
 
-#advertise-container {
-    text-align: center;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    bottom: 0;
-    left: 0;
-    width: 100%;
-  }
 
-  #advertise-text {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
 
-  #advertise-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #3498db;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-  }
+
+
 
