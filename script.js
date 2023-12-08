@@ -13,14 +13,14 @@ updateDate();
 setInterval(updateDate, 1000);
 
 function openAdForm() {
-    // You can replace this with your own logic to open an advertising form or link
+   
     alert("Redirect to your advertising form or link here!");
   }
 
 
   //Sortybet section
   function getText() {
-    // You can replace this with any text you want to display
+   
     var textToDisplay = "whwhwwk";
    
     
@@ -30,7 +30,7 @@ function openAdForm() {
 
 // Bet9ja section
 function getCode() {
-    // You can replace this with any text you want to display
+    
     var textToDisplay = " 5TQZXW2";
    
     
@@ -40,13 +40,15 @@ function getCode() {
 
 // 1xbet section
 function getCodee() {
-    // You can replace this with any text you want to display
+ 
     var textToDisplay = " wtuaoyb";
    
     
     // Display the text in the output div
     document.getElementById("output2").innerHTML = textToDisplay;
 }
+
+
 
 
 

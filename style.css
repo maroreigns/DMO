@@ -58,6 +58,24 @@ body{
     }
 }
 
+/* odds section */
+#output{
+    color: #fff;
+    font-size: 25px;
+}
+
+#output1{
+    color: #fff;
+    font-size: 25px;
+
+}
+
+#output2{
+    color: #fff;
+    font-size: 25px;
+
+}
+
 
 /* advertise here section */
 #advertise-container {
