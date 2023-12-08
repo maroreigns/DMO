@@ -144,6 +144,35 @@ span{
     border-radius: 20px;
 }
 
+.arrow1{
+    color: #fff;
+    font-size: 50px;
+   
+}
+
+.arrow2{
+    color: #fff;
+    font-size: 50px;
+   
+}
+
+
+.arrow3{
+    color: #fff;
+    font-size: 50px;
+   
+}
+
+button{
+    font-size: 17px;
+    background-color: red;
+    color: #fff;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+
+
 
 footer {
     text-align: center;

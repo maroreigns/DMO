@@ -18,7 +18,35 @@ function openAdForm() {
   }
 
 
+  //Sortybet section
+  function getText() {
+    // You can replace this with any text you want to display
+    var textToDisplay = "whwhwwk";
+   
+    
+    // Display the text in the output div
+    document.getElementById("output").innerHTML = textToDisplay;
+}
 
+// Bet9ja section
+function getCode() {
+    // You can replace this with any text you want to display
+    var textToDisplay = " 5TQZXW2";
+   
+    
+    // Display the text in the output div
+    document.getElementById("output1").innerHTML = textToDisplay;
+}
+
+// 1xbet section
+function getCodee() {
+    // You can replace this with any text you want to display
+    var textToDisplay = " wtuaoyb";
+   
+    
+    // Display the text in the output div
+    document.getElementById("output2").innerHTML = textToDisplay;
+}
 
 
 
