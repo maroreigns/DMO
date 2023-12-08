@@ -21,7 +21,7 @@ function openAdForm() {
   //Sortybet section
   function getText() {
    
-    var textToDisplay = "whwhwwk";
+    var textToDisplay = "FF7F52C";
    
     
     // Display the text in the output div
@@ -41,7 +41,7 @@ function getCode() {
 // 1xbet section
 function getCodee() {
  
-    var textToDisplay = " wtuaoyb";
+    var textToDisplay = "Not available";
    
     
     // Display the text in the output div
