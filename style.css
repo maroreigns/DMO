@@ -8,6 +8,57 @@ body{
     background-color: #f4f4f4;
    
 }
+
+
+/* blink arrow */
+.arrow1 {
+    animation: blink 1s infinite;
+   
+   
+   
+    font-size: 30px;
+   
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+
+.arrow2 {
+    animation: blink 1s infinite;
+   
+   
+   
+    font-size: 30px;
+   
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+
+.arrow3 {
+    animation: blink 1s infinite;
+   
+   
+   
+    font-size: 30px;
+   
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+
 /* advertise here section */
 #advertise-container {
     text-align: center;
