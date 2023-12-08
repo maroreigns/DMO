@@ -163,15 +163,32 @@ span{
    
 }
 
-button{
-    font-size: 17px;
-    background-color: red;
+.btn1{
+    background-color: #ff0000;
     color: #fff;
     border-radius: 12px;
+    font-size: 17px;
     cursor: pointer;
 }
 
+.btn2{
+    background-color: green;
+    color: black;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 12px;
 
+}
+
+
+.btn3{
+    background-color: skyblue;
+    color: white;
+    border-radius: 12px;
+    font-size: 17px;
+    cursor: pointer;
+
+}
 
 
 footer {
