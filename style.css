@@ -89,8 +89,8 @@ body{
     font-size: 20px;
     text-align: center;
     margin-top: 150px;
-    background-color: black;
-    color: #ff0000;
+    background-color: #383882;
+    color: #fff;
     padding-top: 12px;
    
    
@@ -98,7 +98,7 @@ body{
 
 
 header {
-    background-color: #42680a;
+    background-color: #2327b4;
     color: #fff;
     padding: 1em;
     text-align: center;
@@ -131,7 +131,7 @@ span{
 
 .container2{
   text-align: center;
-  background-color: #42680a;
+  background-color: #2327b4;
   color: white;
 }
 
@@ -143,14 +143,15 @@ span{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-   background: #42680a;
+   background: #2327b4;
    
 }
 
 .box{
     width: 300px;
     height: 450px;
-    background-color: rgb(66, 104, 9);
+    background-color:#2327b4 ;
+   
     border-radius: 5px;
     padding: 20px;
     padding-top: 80px;
@@ -162,7 +163,7 @@ span{
     position: relative;
     z-index: 0;
     border: 4px double white;
-
+   
 }
 
 .box h3{
@@ -245,7 +246,7 @@ span{
 footer {
     text-align: center;
     padding: 1em;
-    background-color: #42680a;
+    background-color: #2327b4;
     color: #fff;
 }
 
