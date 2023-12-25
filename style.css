@@ -10,6 +10,8 @@ body{
 }
 
 
+
+
 /* blink arrow */
 .arrow1 {
     animation: blink 1s infinite;
@@ -169,7 +171,6 @@ span{
     width: 300px;
     height: 450px;
     background-color:#2327b4 ;
-   
     border-radius: 5px;
     padding: 20px;
     padding-top: 80px;
@@ -233,7 +234,7 @@ span{
    
 }
 
-.btn1{
+.toggle1{
     background-color: #ff0000;
     color: #fff;
     border-radius: 12px;
@@ -241,7 +242,7 @@ span{
     cursor: pointer;
 }
 
-.btn2{
+.toggle2{
     background-color: green;
     color: black;
     font-size: 17px;
@@ -251,7 +252,7 @@ span{
 }
 
 
-.btn3{
+.toggle3{
     background-color: skyblue;
     color: white;
     border-radius: 12px;
@@ -260,6 +261,48 @@ span{
 
 }
 
+#toggleText1 {
+    display: none;
+    font-size: 20px;
+    color: #000;
+    background-color: #fff;
+    width: 300px;
+    border-radius: 50%;
+   
+   
+   
+  }
+
+
+  #toggleText2 {
+    display: none;
+    font-size: 20px;
+    color: #000;
+    background-color: #fff;
+    width: 300px;
+    border-radius: 50%;
+  }
+
+
+
+  #toggleText3 {
+    display: none;
+    font-size: 20px;
+    color: #000;
+    background-color: #fff;
+    width: 300px;
+    border-radius: 50%;
+   
+  }
+
+  .click-btn{
+    border-radius: 12px;
+    font-size: 20px;
+    border-style: none;
+    cursor: pointer;
+  }
+
+/* footer section */
 
 footer {
     text-align: center;
@@ -300,6 +343,12 @@ footer {
    color: #31a8d9;
 
 }
+
+
+
+
+
+
 
 
 

@@ -9,7 +9,7 @@ function updateDate() {
 // Initial call to display the date
 updateDate();
 
-// Update the date every second
+// Update the date every second   
 setInterval(updateDate, 1000);
 
 function openAdForm() {
@@ -19,35 +19,79 @@ function openAdForm() {
 
 
   //Sortybet section
-  function getText() {
+
+  function getCode() {
+    var textElement = document.getElementById('toggleText1');
+    if (textElement.style.display === 'none') {
+      textElement.style.display = 'block';
+    } else {
+      textElement.style.display = 'none';
+    }
+  }
+ 
+
+// Bet9ja section
+function getTextt() {
+    var textElement = document.getElementById('toggleText2');
+    if (textElement.style.display === 'none') {
+      textElement.style.display = 'block';
+    } else {
+      textElement.style.display = 'none';
+    }
+  }
+
+// 1xbet section
+function toggleText() {
+    var textElement = document.getElementById('toggleText3');
+    if (textElement.style.display === 'none') {
+      textElement.style.display = 'block';
+    } else {
+      textElement.style.display = 'none';
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function getText() {
    
     var textToDisplay = "FF7F52C";
    
     
     // Display the text in the output div
     document.getElementById("output").innerHTML = textToDisplay;
+    
 }
 
-// Bet9ja section
-function getCode() {
-    
-    var textToDisplay = " 5TQZXW2";
-   
-    
-    // Display the text in the output div
-    document.getElementById("output1").innerHTML = textToDisplay;
-}
 
-// 1xbet section
-function getCodee() {
- 
-    var textToDisplay = "Not available";
-   
-    
-    // Display the text in the output div
-    document.getElementById("output2").innerHTML = textToDisplay;
-}
 
+    
 
 
 
