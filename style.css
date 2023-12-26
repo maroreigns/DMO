@@ -9,8 +9,7 @@ body{
    
 }
 
-
-
+   
 
 /* blink arrow */
 .arrow1 {
@@ -60,55 +59,13 @@ body{
     }
 }
 
-/* odds section */
-#output{
-    color: #fff;
-    font-size: 25px;
-}
-
-#output1{
-    color: #fff;
-    font-size: 25px;
-
-}
-
-#output2{
-    color: #fff;
-    font-size: 25px;
-
-}
-
-
-/* advertise here section */
-#advertise-container {
-    text-align: center;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    bottom: 0;
-    left: 0;
-    width: 100%;
-  }
-
-  #advertise-text {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-
-  #advertise-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #3498db;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-  }
 
 
   /* date setup */
   #date-container {
     font-size: 20px;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 30px;
     background-color: #383882;
     color: #fff;
     padding-top: 12px;
@@ -130,12 +87,10 @@ header h2 span{
     border-radius: 12px;
 }
 
-span{
-    color: yellow;
-}
+
 
 .logomain {
-   padding-top: 23px;
+    padding-top: 23px;
 }
 
 .logomain span{
