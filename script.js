@@ -20,35 +20,300 @@ function openAdForm() {
 
   //Sortybet section
 
-  function getCode() {
+function getCode() {
     var textElement = document.getElementById('toggleText1');
-    if (textElement.style.display === 'none') {
+    let hideContent = document.querySelector('.click-btn');
+
+    var textStyle = window.getComputedStyle(textElement);
+
+    if (textStyle.display === 'none') {
       textElement.style.display = 'block';
     } else {
       textElement.style.display = 'none';
     }
+
+    if (hideContent.innerText === 'Click here to get code') {
+      hideContent.innerText = 'Click here to hide code';
+    } else {
+      hideContent.innerText = 'Click here to get code';
+    }
   }
+
+  function copyCode1(code) {
+    var copyMessage = document.getElementById('copyMessage');
+    var copyCodeButton1 = document.querySelector('.copy-button1');
+
+  
+    var textarea = document.createElement('textarea');
+    textarea.value = code;
+    document.body.appendChild(textarea);
+  
+    textarea.select();
+    document.execCommand('copy');
+  
+    document.body.removeChild(textarea);
+  
+    copyMessage.innerText = 'Code copied!';
+  
+    setTimeout(function() {
+      copyMessage.innerText = '';
+    }, 2000);
+  
+    if (copyCodeButton1.innerText === 'Copy Code') {
+      copyCodeButton1.innerText = 'Copied';
+  
+      // Reload the page after a short delay (e.g., 1 second)
+      setTimeout(function() {
+        location.reload();
+      }, 1500);
+    } else {
+      copyCodeButton1.innerText = 'Copy Code';
+    }
+    
+  }
+
+
+  function copyCode2(code) {
+    var copyMessage = document.getElementById('copyMessage');
+    var copyCodeButton2 = document.querySelector('.copy-button2');
+
+  
+    var textarea = document.createElement('textarea');
+    textarea.value = code;
+    document.body.appendChild(textarea);
+  
+    textarea.select();
+    document.execCommand('copy');
+  
+    document.body.removeChild(textarea);
+  
+    copyMessage.innerText = 'Code copied!';
+  
+    setTimeout(function() {
+      copyMessage.innerText = '';
+    }, 2000);
+
+      
+    if (copyCodeButton2.innerText === 'Copy Code') {
+      copyCodeButton2.innerText = 'Copied';
+  
+      // Reload the page after a short delay (e.g., 1 second)
+      setTimeout(function() {
+        location.reload();
+      }, 1500);
+    } else {
+      copyCodeButton2.innerText = 'Copy Code';
+    }
+    
+  }
+
+  //Sortybet section END //
+
+  
+
+
+
  
 
 // Bet9ja section
 function getTextt() {
     var textElement = document.getElementById('toggleText2');
-    if (textElement.style.display === 'none') {
+    let hideContent = document.querySelectorAll('.click-btn')[1];
+
+    // Get the computed style to check the current display value
+    var textStyle = window.getComputedStyle(textElement);
+
+    if (textStyle.display === 'none') {
       textElement.style.display = 'block';
     } else {
       textElement.style.display = 'none';
     }
+
+    if (hideContent.innerText === 'Click here to get code') {
+      hideContent.innerText = 'Click here to hide code';
+    } else {
+      hideContent.innerText = 'Click here to get code';
+    }
   }
+
+
+  function copyCode3(code) {
+    var copyMessage = document.getElementById('copyMessage-1');
+    var copyCodeButton3 = document.querySelector('.copy-button3');
+
+  
+    var textarea = document.createElement('textarea');
+    textarea.value = code;
+    document.body.appendChild(textarea);
+  
+    textarea.select();
+    document.execCommand('copy');
+  
+    document.body.removeChild(textarea);
+  
+    copyMessage.innerText = 'Code copied!';
+  
+    setTimeout(function() {
+      copyMessage.innerText = '';
+    }, 2000);
+  
+    if (copyCodeButton3.innerText === 'Copy Code') {
+      copyCodeButton3.innerText = 'Copied';
+  
+      // Reload the page after a short delay (e.g., 1 second)
+      setTimeout(function() {
+        location.reload();
+      }, 1500);
+    } else {
+      copyCodeButton3.innerText = 'Copy Code';
+    }
+    
+  }
+
+
+
+  function copyCode4(code) {
+    var copyMessage = document.getElementById('copyMessage-1');
+    var copyCodeButton4 = document.querySelector('.copy-button4');
+
+  
+    var textarea = document.createElement('textarea');
+    textarea.value = code;
+    document.body.appendChild(textarea);
+  
+    textarea.select();
+    document.execCommand('copy');
+  
+    document.body.removeChild(textarea);
+  
+    copyMessage.innerText = 'Code copied!';
+  
+    setTimeout(function() {
+      copyMessage.innerText = '';
+    }, 2000);
+  
+    if (copyCodeButton4.innerText === 'Copy Code') {
+      copyCodeButton4.innerText = 'Copied';
+  
+      // Reload the page after a short delay (e.g., 1 second)
+      setTimeout(function() {
+        location.reload();
+      }, 1500);
+    } else {
+      copyCodeButton4.innerText = 'Copy Code';
+    }
+    
+  }
+  // Bet9ja section END //
+
+
+
+
+
+
+
 
 // 1xbet section
 function toggleText() {
     var textElement = document.getElementById('toggleText3');
-    if (textElement.style.display === 'none') {
+    let hideContent = document.querySelectorAll('.click-btn')[2];
+
+    // Get the computed style to check the current display value
+    var textStyle = window.getComputedStyle(textElement);
+
+    if (textStyle.display === 'none') {
       textElement.style.display = 'block';
     } else {
       textElement.style.display = 'none';
     }
+
+    if (hideContent.innerText === 'Click here to get code') {
+      hideContent.innerText = 'Click here to hide code';
+    } else {
+      hideContent.innerText = 'Click here to get code';
+    }
   }
+
+
+
+  function copyCode5(code) {
+    var copyMessage = document.getElementById('copyMessage-2');
+    var copyCodeButton5 = document.querySelector('.copy-button5');
+
+  
+    var textarea = document.createElement('textarea');
+    textarea.value = code;
+    document.body.appendChild(textarea);
+  
+    textarea.select();
+    document.execCommand('copy');
+  
+    document.body.removeChild(textarea);
+  
+    copyMessage.innerText = 'Code copied!';
+  
+    setTimeout(function() {
+      copyMessage.innerText = '';
+    }, 2000);
+  
+    if (copyCodeButton5.innerText === 'Copy Code') {
+      copyCodeButton5.innerText = 'Copied';
+  
+      // Reload the page after a short delay (e.g., 1 second)
+      setTimeout(function() {
+        location.reload();
+      }, 1500);
+    } else {
+      copyCodeButton5.innerText = 'Copy Code';
+    }
+    
+  }
+
+
+
+  function copyCode6(code) {
+    var copyMessage = document.getElementById('copyMessage-2');
+    var copyCodeButton6 = document.querySelector('.copy-button6');
+
+  
+    var textarea = document.createElement('textarea');
+    textarea.value = code;
+    document.body.appendChild(textarea);
+  
+    textarea.select();
+    document.execCommand('copy');
+  
+    document.body.removeChild(textarea);
+  
+    copyMessage.innerText = 'Code copied!';
+  
+    setTimeout(function() {
+      copyMessage.innerText = '';
+    }, 2000);
+  
+    if (copyCodeButton6.innerText === 'Copy Code') {
+      copyCodeButton6.innerText = 'Copied';
+  
+      // Reload the page after a short delay (e.g., 1 second)
+      setTimeout(function() {
+        location.reload();
+      }, 1500);
+    } else {
+      copyCodeButton6.innerText = 'Copy Code';
+    }
+    
+  }
+
+  // 1xbet section END //
+
+
+
+
+  // server localhost
+  // fetch('http://localhost:3000')
+  // .then(response => response.text())
+  // .then(data => console.log(data))
+  // .catch(error => console.error('Error:', error));
 
 
 
