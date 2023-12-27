@@ -62,10 +62,6 @@ function getCode() {
     if (copyCodeButton1.innerText === 'Copy Code') {
       copyCodeButton1.innerText = 'Copied';
   
-      // Reload the page after a short delay (e.g., 1 second)
-      setTimeout(function() {
-        location.reload();
-      }, 1500);
     } else {
       copyCodeButton1.innerText = 'Copy Code';
     }
@@ -96,11 +92,7 @@ function getCode() {
       
     if (copyCodeButton2.innerText === 'Copy Code') {
       copyCodeButton2.innerText = 'Copied';
-  
-      // Reload the page after a short delay (e.g., 1 second)
-      setTimeout(function() {
-        location.reload();
-      }, 1500);
+ 
     } else {
       copyCodeButton2.innerText = 'Copy Code';
     }
@@ -159,11 +151,7 @@ function getTextt() {
   
     if (copyCodeButton3.innerText === 'Copy Code') {
       copyCodeButton3.innerText = 'Copied';
-  
-      // Reload the page after a short delay (e.g., 1 second)
-      setTimeout(function() {
-        location.reload();
-      }, 1500);
+
     } else {
       copyCodeButton3.innerText = 'Copy Code';
     }
@@ -194,11 +182,7 @@ function getTextt() {
   
     if (copyCodeButton4.innerText === 'Copy Code') {
       copyCodeButton4.innerText = 'Copied';
-  
-      // Reload the page after a short delay (e.g., 1 second)
-      setTimeout(function() {
-        location.reload();
-      }, 1500);
+
     } else {
       copyCodeButton4.innerText = 'Copy Code';
     }
@@ -259,10 +243,6 @@ function toggleText() {
     if (copyCodeButton5.innerText === 'Copy Code') {
       copyCodeButton5.innerText = 'Copied';
   
-      // Reload the page after a short delay (e.g., 1 second)
-      setTimeout(function() {
-        location.reload();
-      }, 1500);
     } else {
       copyCodeButton5.innerText = 'Copy Code';
     }
@@ -294,10 +274,6 @@ function toggleText() {
     if (copyCodeButton6.innerText === 'Copy Code') {
       copyCodeButton6.innerText = 'Copied';
   
-      // Reload the page after a short delay (e.g., 1 second)
-      setTimeout(function() {
-        location.reload();
-      }, 1500);
     } else {
       copyCodeButton6.innerText = 'Copy Code';
     }
