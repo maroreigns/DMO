@@ -293,6 +293,52 @@ header h2 span{
     cursor: pointer;
   }
 
+
+  /* winnings gallery section */
+
+  .wins{
+   text-align: center;
+   color: #2327b4;
+   font-size: 30px;
+
+  }
+
+  .gallery {
+    margin: 20px;
+    text-align: center;
+   
+  
+}
+
+.gallery h2 {
+    margin-bottom: 10px;
+    color: #2327b4;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+   
+    display: flex;
+    transition: all 0.3 linear;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.gallery-container img {
+   
+    margin: 5px;
+    object-fit: cover;
+    width: 300px;
+   
+    flex-wrap: wrap;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
 /* footer section */
 
 footer {
@@ -321,8 +367,16 @@ footer {
     color: #ff4b72;
 }
 
-.whatsap i{
+.whatsappp{
+    text-align: center;
+    color: #2327b4;
+    
+}
+
+.whatsappp i{
     color: #24d366;
+    font-size: 50px;
+   
 }
 
 .faceb i{
