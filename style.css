@@ -313,17 +313,18 @@ header h2 span{
 .gallery h2 {
     margin-bottom: 10px;
     color: #2327b4;
+   
 }
 
 .gallery-container {
     display: flex;
     justify-content: center;
-   
     display: flex;
     transition: all 0.3 linear;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    background-color: #1c2e45;
     
 }
 
