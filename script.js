@@ -285,6 +285,32 @@ function toggleText() {
 
 
 
+  // winning gallery section
+
+  const gallery = document.querySelector('.gallery');
+    const modal = document.getElementById('modal');
+    const modalImage = document.getElementById('modal-image');
+
+    gallery.addEventListener('click', (e) => {
+      if (e.target.tagName === 'IMG') {
+        const imgSrc = e.target.src;
+        modalImage.src = imgSrc;
+        modal.style.display = 'flex';
+      }
+    });
+
+    function closeModal() {
+      modal.style.display = 'none';
+    }
+
+    window.addEventListener('click', (e) => {
+      if (e.target === modal) {
+        closeModal();
+      }
+    });
+
+
+
   // server localhost
   // fetch('http://localhost:3000')
   // .then(response => response.text())
