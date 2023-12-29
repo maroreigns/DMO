@@ -302,7 +302,7 @@ header h2 span{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 90px;
-    
+    background-color: #c3a9ff;
   }
 
 
